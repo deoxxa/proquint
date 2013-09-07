@@ -1,0 +1,35 @@
+{
+  "name": "proquint",
+  "version": "0.0.0",
+  "description": "Identifiers that are readable, spellable, and pronounceable",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R tap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/deoxxa/proquint.git"
+  },
+  "keywords": [
+    "proquint",
+    "identifier",
+    "pronounceable",
+    "readable",
+    "spellable",
+    "id",
+    "random",
+    "human"
+  ],
+  "author": "Conrad Pankoff <deoxxa@fknsrs.biz> (http://www.fknsrs.biz/)",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/deoxxa/proquint/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.1",
+    "chai": "~1.7.2"
+  }
+}
