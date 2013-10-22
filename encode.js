@@ -14,11 +14,11 @@ var encode = module.exports = function encode(buffer) {
         c3 = (n >> 12) & 0x0f;
 
     bits.push([
-      consonants[c1],
-      vowels[v1],
-      consonants[c2],
-      vowels[v2],
       consonants[c3],
+      vowels[v2],
+      consonants[c2],
+      vowels[v1],
+      consonants[c1],
     ].join(""));
   }
 
