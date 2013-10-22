@@ -13,11 +13,11 @@ var decode = module.exports = function decode(str) {
 
   for (var i=0, len=bits.length; i<len; i++) {
     buffer.writeUInt16BE(
-      consonants[bits[i][0]]         +  
-      (vowels[bits[i][1]]     << 4)  + 
+      (consonants[bits[i][0]] << 12) +
+      (vowels[bits[i][1]]     << 10)  + 
       (consonants[bits[i][2]] << 6)  + 
-      (vowels[bits[i][3]]     << 10) + 
-      (consonants[bits[i][4]] << 12) ,
+      (vowels[bits[i][3]]     << 4) + 
+      (consonants[bits[i][4]] << 0),
       i * 2
     );
   }

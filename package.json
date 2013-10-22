@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "mocha": "~1.12.1",
-    "chai": "~1.7.2"
+    "chai": "~1.7.2",
+    "bops": "~0.1.0"
   }
 }
